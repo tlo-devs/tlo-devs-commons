@@ -1,0 +1,17 @@
+# Exclude Environment and Config files
+.idea
+venv
+*.env
+.run
+
+# Exclude compiled files and caches
+__pycache__
+*.pyc
+.pytest_cache
+.coverage
+
+# Exclude build files
+*.spec
+build
+dist
+*.egg-info
